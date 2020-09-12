@@ -6,7 +6,7 @@ Dead simple masked input component for Vue.js 2.X. Based on [inputmask-core](htt
 ## Install
 ### npm
 ```
-npm install vue-masked-input --save
+npm install vue-awesome-masked-input --save
 ```
 
 ## Usage
