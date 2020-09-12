@@ -239,6 +239,9 @@ export default {
       if (e.keyCode === 9) { // Preven change selection for Tab in
         return;
       }
+      if (e.keyCode === 13) { // Preven change selection for enter in
+        this.$emit('enter');
+      }
       this.updateToCoreState();
       this.updateAfterAll = false;
     },
